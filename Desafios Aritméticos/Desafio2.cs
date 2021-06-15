@@ -23,39 +23,39 @@ namespace Desafios_Aritméticos
 
     class Desafio2
     {
-        static void Main(string[] args) 
-        {
-            string[] s = Console.ReadLine().Split(' ');
+        //static void Main(string[] args) 
+        //{
+        //    string[] s = Console.ReadLine().Split(' ');
 
-            double[] aux = new double[3];
-            aux[0] = double.Parse(s[0]);
-            aux[1] = double.Parse(s[1]);
-            aux[2] = double.Parse(s[2]);
+        //    double[] aux = new double[3];
+        //    aux[0] = double.Parse(s[0]);
+        //    aux[1] = double.Parse(s[1]);
+        //    aux[2] = double.Parse(s[2]);
 
-            Array.Sort(aux);
-            Array.Reverse(aux);
+        //    Array.Sort(aux);
+        //    Array.Reverse(aux);
 
-            double a = aux[0];
-            double b = aux[1];
-            double c = aux[2];
+        //    double a = aux[0];
+        //    double b = aux[1];
+        //    double c = aux[2];
 
-            double a2 = Math.Pow(a, 2);
-            double b2 = Math.Pow(b, 2);
-            double c2 = Math.Pow(c, 2);
+        //    double a2 = Math.Pow(a, 2);
+        //    double b2 = Math.Pow(b, 2);
+        //    double c2 = Math.Pow(c, 2);
 
-            //continue a solucao
-            if ( a >= b + c )
-                Console.WriteLine("NAO FORMA TRIANGULO");
-            else if ( a2 == b2 + c2 )
-                Console.WriteLine("TRIANGULO RETANGULO");
-            else if ( a2 > b2 + c2 )
-               Console.WriteLine("TRIANGULO OBTUSANGULO");
-            else if ( a2 < b2 + c2 )
-                Console.WriteLine("TRIANGULO ACUTANGULO");
-            if (a2 == b2 && b2 == c2)     
-                Console.WriteLine("TRIANGULO EQUILATERO");
-            if (a2 == b2 ^ b2 == c2)
-                Console.WriteLine("TRIANGULO ISOSCELES");
+        //    //continue a solucao
+        //    if ( a >= b + c )
+        //        Console.WriteLine("NAO FORMA TRIANGULO");
+        //    else if ( a2 == b2 + c2 )
+        //        Console.WriteLine("TRIANGULO RETANGULO");
+        //    else if ( a2 > b2 + c2 )
+        //       Console.WriteLine("TRIANGULO OBTUSANGULO");
+        //    else if ( a2 < b2 + c2 )
+        //        Console.WriteLine("TRIANGULO ACUTANGULO");
+        //    if (a2 == b2 && b2 == c2)     
+        //        Console.WriteLine("TRIANGULO EQUILATERO");
+        //    if (a2 == b2 ^ b2 == c2)
+        //        Console.WriteLine("TRIANGULO ISOSCELES");
 
         }
     }
