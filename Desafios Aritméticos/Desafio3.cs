@@ -6,8 +6,6 @@ using System.Threading.Tasks;
 
 namespace Desafios_Aritméticos
 {
-
-
     class Desafio3
     {
         //Leia 3 valores de ponto flutuante e efetue o cálculo das raízes da equação de Bhaskara.
@@ -37,12 +35,12 @@ namespace Desafios_Aritméticos
 
             delta = (Math.Pow(b, 2) - (4 * a * c));
             r1 = (-b + Math.Sqrt(delta)) / (2 * a);
-            r2 = (b + Math.Sqrt(delta)) / (2 * a);
+            r2 = (-b - Math.Sqrt(delta)) / (2 * a);
 
             if (a > 0 && delta > 0)
             {
-                Console.WriteLine("R1 ={0:N5}", r1);
-                Console.WriteLine("R2 ={0:N5}", r2);
+                Console.WriteLine("R1 ={0:0.00000}", r1);
+                Console.WriteLine("R2 ={0:0.00000}", r2);
             }
             else
             {
