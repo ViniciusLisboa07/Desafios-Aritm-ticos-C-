@@ -4,8 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Desafios_Aritméticos
-{
+//namespace Desafios_Aritméticos
+//{
 
    /* 
     * Leia 3 valores de ponto flutuante 
@@ -21,8 +21,8 @@ namespace Desafios_Aritméticos
         se apenas dois dos lados forem iguais, apresente a mensagem: TRIANGULO ISOSCELES
 */
 
-    class Desafio2
-    {
+    //class Desafio2
+    //{
         //static void Main(string[] args) 
         //{
         //    string[] s = Console.ReadLine().Split(' ');
@@ -57,6 +57,6 @@ namespace Desafios_Aritméticos
         //    if (a2 == b2 ^ b2 == c2)
         //        Console.WriteLine("TRIANGULO ISOSCELES");
 
-        }
-    }
-}
+//        }
+//    }
+//}

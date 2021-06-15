@@ -23,7 +23,8 @@ namespace Desafios_Aritméticos
         //Caso contrário, imprima o resultado das raízes com 5 dígitos após o ponto,
         //com uma mensagem correspondente conforme exemplo abaixo.
         //Imprima sempre o final de linha após cada mensagem.
-        public void Main(string[] args)
+
+        static void Main(string[] args)
         {
 
             double a, b, c, delta, r1, r2;
@@ -40,15 +41,13 @@ namespace Desafios_Aritméticos
 
             if (a > 0 && delta > 0)
             {
-                Console.WriteLine("R1 ={0}", r1);
-                Console.WriteLine("R2 ={0}", r2);
+                Console.WriteLine("R1 ={0:N5}", r1);
+                Console.WriteLine("R2 ={0:N5}", r2);
             }
             else
             {
                 Console.WriteLine("Impossivel calcular");
             }
-
-
         }
     }
 }
